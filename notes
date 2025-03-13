@@ -1,0 +1,173 @@
+### LDAP:
+
+
+You can compress a file using the gzip compression protocol named LZ77
+using the
+gzip command.
+
+Options Available in gzip Command---
+
+-f  :  Forcefully compress a file even if a compressed version with the same name already exists.
+-k  :  Compress a file and keep the original file, resulting in both the compressed and original files.
+-L  : Display the gzip license for the software.
+-r  : Recursively compress all files in a folder and its subfolders.
+-v  : Display the name and percentage reduction for each file compressed or decompressed.
+-d  : Decompress a file that was compressed using the gzip command.
+
+
+What is /etc/init.d?
+Location: This folder is typically located in the /etc directory, which is the root directory for system-wide configuration files.
+
+Purpose: It contains scripts that are used to manage system services, such as daemons (background processes).
+
+
+# Environment Variables? 
+Environment variables in Linux are like special settings or configurations that are available to the operating system and the programs running on it.
+1. Environment variables are named values that are stored in the operating system.
+2. They can be accessed and used by different programs and scripts running on the system. 
+
+
+
+### Linux file System:---
+
+The below table gives a very short standard, defined, and well-known top-level Linux directory list and their purposes:
+
+/ (root filesystem): It is the top-level filesystem directory. It must include every file needed to boot the Linux system before another filesystem is mounted. Every other filesystem is mounted on a well-defined and standard mount point because of the root filesystem directories after the system is started.
+/boot: It includes the static kernel and bootloader configuration and executable files needed to start a Linux computer.
+/bin: This directory includes user executable files.
+/dev: It includes the device file for all hardware devices connected to the system. These aren't device drivers; instead, they are files that indicate all devices on the system and provide access to these devices.
+/etc: It includes the local system configuration files for the host system.
+/lib: It includes shared library files that are needed to start the system.
+/home: The home directory storage is available for user files. All users have a subdirectory inside /home.
+/mnt: It is a temporary mount point for basic filesystems that can be used at the time when the administrator is working or repairing a filesystem.
+/media: A place for mounting external removable media devices like USB thumb drives that might be linked to the host.
+/opt: It contains optional files like vendor supplied application programs that must be placed here.
+/root: It's the home directory for a root user. Keep in mind that it's not the '/' (root) file system.
+/tmp: It is a temporary directory used by the OS and several programs for storing temporary files. Also, users may temporarily store files here. Remember that files may be removed without prior notice at any time in this directory.
+/sbin: These are system binary files. They are executables utilized for system administration.
+/usr: They are read-only and shareable files, including executable libraries and binaries, man files, and several documentation types.
+/var: Here, variable data files are saved. It can contain things such as MySQL, log files, other database files, email inboxes, web server data files, and much more.
+
+
+
+# CRON TABS--------
+# The Linux Crontab Format is represented by the following syntax:
+
+```
+MIN HOUR DOM MON DOW CMD
+```
+
+
+
+
+
+
+FLUTTER_HOME="/home/users/Devendra.singh/DevTools/flutter"
+export FLUTTER_HOME
+PATH="$FLUTTER_HOME/bin:$PATH"
+
+
+
+
+
+
+which bash file mkdir rm which
+/bin/bash
+/usr/bin/file
+/bin/mkdir
+/bin/rm
+which: shell built-in command
+
+
+
+# Common Environment Variables------
+1. PATH:
+This variable contains a list of directories in which our system looks for files. It separates directories by a (:) colon.
+
+2. USER: 
+This variable holds the username.
+
+3. HOME:
+This variable holds the default path to the user's home directory.
+
+4. EDITOR:
+This variable contains the path to the specified editor.
+
+5. UID:
+This variable contains the path to the user's unique id.
+
+6. TERM:
+This variable contains the path to the default terminal emulator.
+
+7. SHELL:
+This variable contains the path to the default shell that is being used by the user.
+
+8. ENV:
+This variable displays all the environment variable.
+
+
+
+
+
+
+#quick steps for vagrant
+apt install vagrant # install vagrant
+vagrant --version
+mkdir vagarnt_projects
+cd vagrant_projects
+#create woking envirment (suppose we are provisioning ubuntu vm)
+mkdir ubuntu_vm && cd ubuntu_vm
+vagrant init # it will create vagant file
+vim Vagrantfile # edit the baseimage box entry with box name for Eg:- (generic/ubuntu2204)
+# save and exit the file
+vagrant up --provider virtualbox # Select the provider that you are using
+vagrant ssh # Take ssh of the provisioned machine
+
+
+
+To add new image in system
+`vagrant box add image_name`
+To remove vagrant box
+`vagrant box prune`
+To list existing boxes
+`vagrant box list`
+
+
+### lenovo tiket-------
+Your eTicket has been received. Your confirmation number is `E03OVFS1XF`. You will receive a confirmation email with additional details and next steps within the next hours.
+
+To check the status of this request or for any additional questions or follow-up details, you can access the https://support.lenovo.com/in/en/repairstatus page and send us an e-comment.
+
+
+
+
+DEVICES		-		ANDROID VERSION
+--------------------------------------------------------
+
+MK-DD01		- 		5.1.1
+MK-DD03		-		
+MK-DD04		-		5.1
+MK-DD06		- 		6
+PH_07			-		7.1.1
+MK-DD09		-		4.4.4
+MK-DD12		-		7.1.1
+MK-DD13		-		7
+MK-DD17		-		8.1.0
+MK-DD18		-		5.1.1
+MK-DD19		-		
+MK-DD20		-		11		
+MK-DD21		-				
+MK-DD22		-		9
+MK-DD28		-		
+MK-DD29		-		13
+
+
+
+
+
+
+
+
+
+
+
