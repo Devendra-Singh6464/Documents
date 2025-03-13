@@ -103,9 +103,9 @@ This is the opposite of Forward DNS Lookup. It converts an **IP address** (lik
 
 ### **Fully Qualified Domain Name**
 
-![[Pasted image 20250206114824.png]]
+Pasted image 20250206114824.png
 
-![[Pasted image 20250206115153.png]]
+Pasted image 20250206115153.png
 
 ### DNS Record?
 
