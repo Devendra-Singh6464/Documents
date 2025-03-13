@@ -1,0 +1,8 @@
+{
+  "nativeMenus": true,
+  "theme": "obsidian",
+  "accentColor": "#5f5cf5",
+  "cssTheme": "Obuntu",
+  "baseFontSize": 15,
+  "baseFontSizeAction": true
+}

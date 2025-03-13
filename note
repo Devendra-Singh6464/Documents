@@ -1,0 +1,236 @@
+A!. How to share file using ip address.
+1. $ rsync -rac <filename> <username>@ip_address:<destination_path>
+
+
+2. Create a Linux launcher icon.
+$ vi /usr/share/applications/<application_name.desktop>
+
+
+devendra bhandari
+
+How to check current default permission?
+$umask
+
+
+chomd: change permission the file
+chown: change user/owner permission
+chgrp: change group permissioin
+
+
+if you change the permission inside the folder all files so-------->
+chmod -R user:group <folder_name>
+
+if you change 1 file permission so ------>
+chmod -r user:group <file_name> 
+
+chown -c devendra 03-file 
+chgrp -c devendra 03-file
+
+-------acl commands
+getfacl 03-file 
+
+adding permission for user-
+setfacl -m u:user:rwx <file_name>
+
+adding permission for group-
+setfacl -m g:user:rwx <file_name>
+
+remove a sacific entry-
+setfacl -x u:user:rwx <file_name>
+
+remove all entries-
+setfacl -b <file_name>
+
+adding permission for user in all the files inside a folder
+$setfacl -Rm "entry" <target_file/folder>
+
+Composer----------->
+https://www.cherryservers.com/blog/how-to-install-composer-ubuntu
+
+
+Install secure phpmyadmin--------->
+https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04
+
+How to install and configure phpMyAdmin------->
+https://ubuntu.com/server/docs/how-to-install-and-configure-phpmyadmin
+
+how to create toa  user?
+useradd <usre_name>
+adduser <user_name>
+
+useradd -g <group_name> -s /bin/bash -c "This is a tempory user" -m -d /home/<user_name> <user_name>
+
+
+Modify user-----
+root@wadmin-Veriton-M200-H310:/home# id alex
+uid=1003(alex) gid=1003(alex) groups=1003(alex)
+
+# Change the default group 
+root@wadmin-Veriton-M200-H310:/home# usermod -g demo alex
+
+root@wadmin-Veriton-M200-H310:/home# id alex
+uid=1003(alex) gid=1005(demo) groups=1005(demo)
+
+root@wadmin-Veriton-M200-H310:~# usermod -g devendra dev
+root@wadmin-Veriton-M200-H310:~# id dev
+uid=1002(dev) gid=1001(devendra) groups=1001(devendra)
+
+# add new group but default group also there 
+root@wadmin-Veriton-M200-H310:~# usermod -G demo dev
+
+root@wadmin-Veriton-M200-H310:~# id dev
+uid=1002(dev) gid=1001(devendra) groups=1001(devendra),1005(demo)
+ 
+
+chage :-
+
+chage [-m mindays] [-M maxdays] [-d lastday] [-I inactive] [-E expiredate] [-W warndays] user_name
+
+
+
+## CONTROLLING SERVICE AND DAEMONS---
+
+systemd :
+The systemd daemon manages startup for linux,including service startu and service management in general.It actives system resources,server daemons and other processes both at boot time and on a runing system.
+
+# Listin Service Units:
+You use the systemctl command to exploer the currecnt state of the system.
+This command without any arguments lists that are both loaded and active.
+```
+systemctl
+```
+
+This command lists only the service units with active activaton states.
+```
+systemctl list-units --type=service
+systemctl --type=service
+```
+
+enabled : available across re-boot system.
+
+
+1. if you want to set the limeit any service to tack a memory so 
+```
+systemctl set-property (service_name)httpd.service MemoryLimit=200M
+```
+```
+systemctl status httpd
+```
+
+oom kiiler: out of memory killer. 
+
+if you restart the any service that means `pid` changed
+how to cheack `pid`
+```
+pidof <service_name>
+```
+
+if you reload the any servcie so service `pid` not changed-
+```
+systemctl reload <service_name>
+```
+
+if you change apache default port:80 so
+```
+vi /etc/httpd/conf/httpd.conf
+```
+and change the `listen`
+```
+systemctl restart httpd
+```
+
+--- change host name:
+```
+hostnamectl set-hostname <name'ip_last'>
+```
+
+--- memory hdd check:
+```
+lsblk
+``` 
+
+----Use the command to verify that the a service unit is currently active(running).-----
+```
+systemctl is-active/enabled <servce_name>.service  
+```
+
+----To verify wheter the unit failed during startup.------
+```
+systemctl is-failed <service_name>.service
+```
+
+## Firewalld service on ubuntu------ 
+
+how to start firewalld service on ubuntu
+```
+systemctl start firewalld
+```
+
+enable--
+```
+systemctl enable firewalld
+```
+
+check status--
+```
+systemctl status firewalld
+```
+
+stop the service-----
+```
+systemctl stop <service_name>.service
+```
+
+`systemctl list-dependenies` this commadn displays a hierachy mapping of dependencies to start the service unit to list reverse dependencies(units that depend on the specified unit), use the --reverse opton with the command.
+```
+systemctl list-dependencies <service_name>.service
+```
+
+
+## Masking and unmasking Services-----
+Masking a Service: When you "mask" a service, you're essentially telling systemd to not start that service under any circumstances. It's a way to completely disable a service.
+
+```
+systemctl mask <service_name>.service
+```
+```
+systemctl list unit-files --type==service
+```
+attempring to start a masked service unit fails.
+
+how to unmask ---------
+```
+systemctl umask <service_name>.service
+```
+
+
+## Enabling Servies to start or stop at Boot---
+To start a service atr boot,use the systemctl enable command 
+```
+systemctl enable <service_name>.service
+```
+ 
+how many service given sudo privilages----
+```
+vi /etc/sudoers
+``` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

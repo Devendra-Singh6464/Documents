@@ -1,0 +1,341 @@
+{
+  "main": {
+    "id": "8cf379cde7f86f76",
+    "type": "split",
+    "children": [
+      {
+        "id": "819ee3f92b53d81e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ebdfc2b991a51a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iNotes/Linux Commands.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux Commands"
+            }
+          },
+          {
+            "id": "0929a2d2c9f0503b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "report/Tasks Reports.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Tasks Reports"
+            }
+          },
+          {
+            "id": "fd186ecd4819e2dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DNS/DNSMasq.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "DNSMasq"
+            }
+          },
+          {
+            "id": "d894b0a564d9f0c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DNS/ROOT  SERVERS.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "ROOT  SERVERS"
+            }
+          },
+          {
+            "id": "436b366e2b1bc049",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iNotes/PHP ingress upload size.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "PHP ingress upload size"
+            }
+          },
+          {
+            "id": "4a0ccd9f003567e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GITLAB/Gitlab.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Gitlab"
+            }
+          },
+          {
+            "id": "5bd4d9d92284df11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker Start.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Docker Start"
+            }
+          },
+          {
+            "id": "97b383de8b970c61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "info/Reply&Task.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Reply&Task"
+            }
+          },
+          {
+            "id": "6d6295642f85b408",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "info/Info.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Info"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "09e94f54544d8c66",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbebcf72081be282",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a73f9d738cf9be63",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0b9b02140abd5fb6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4826cf2877597ba5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "30596c7f59d05825",
+    "type": "split",
+    "children": [
+      {
+        "id": "f00afe1bba2ed881",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2a059cc6d63a28b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "iNotes/Commands.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Commands"
+            }
+          },
+          {
+            "id": "50d5be469adad031",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "report/Tasks Reports.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Tasks Reports"
+            }
+          },
+          {
+            "id": "33a12d1ef8d66d13",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c7cc36ab0fe311b3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "iNotes/Commands.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Commands"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "zk-prefixer:Create new unique note": false
+    }
+  },
+  "active": "0929a2d2c9f0503b",
+  "lastOpenFiles": [
+    "info/Reply&Task.md",
+    "info/Info.md",
+    "report/Tasks Reports.md",
+    "202503131503.md",
+    "Untitled.canvas",
+    "2025-03-13.md",
+    "GITLAB/Gitlab.md",
+    "iNotes/mailHog.md",
+    "GITLAB/run.png",
+    "GITLAB/cid.png",
+    "Docker/Virtual Machines (VMs) and Containers.md",
+    "iNotes/Map domain and also map it with the fpm-8.2.md",
+    "iNotes/Map Domain and Sub domain in ubuntu.md",
+    "iNotes/Linux Commands.md",
+    "github-push.png",
+    "2025-03-12.md",
+    "Pasted image 20250206114020.png",
+    "Pasted image 20250206114824.png",
+    "Pasted image 20250206115153.png",
+    "Screenshot from 2025-03-12 10-35-25.png",
+    "Docker/Docker Start.md",
+    "DNS/DNSMasq.md",
+    "iNotes/PHP ingress upload size.md",
+    "iNotes/Firefox.md",
+    "DNS/DNS.md",
+    "iNotes/android_studio_install.md",
+    "DNS/ROOT  SERVERS.md",
+    "Docker/Docker MySQL container.md",
+    "iNotes/Flutter Setup for MAC.md",
+    "VIRTUALIZATION/Virtualization.md",
+    "report/2024-11-13.md",
+    "2025-03-10.md",
+    "iNotes/iptables_rules.md",
+    "iNotes/iCon Set in ubuntu.md",
+    "VIRTUALIZATION",
+    "GITLAB",
+    "txt/Pasted image 20240920120607.png",
+    "iNotes/vagrant_getting start.png",
+    "desktop.yml",
+    "iNotes/Screenshot from 2025-02-17 15-22-22.png",
+    "iNotes/vagrant.pdf",
+    "iNotes/All reveal.md.pdf",
+    "DNS",
+    "info/pptp.odt",
+    "report",
+    "Docker",
+    "iNotes/Untitled"
+  ]
+}

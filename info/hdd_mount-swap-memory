@@ -1,0 +1,16 @@
+HDD MOUNT----
+
+create a hdd folder in standrad user
+
+1. Mkdir Hdd
+
+2. vi /etc/fstab
+3. /dev/sda1 <tab> /home/users/user-name/hdd <tab> ext4 <tab> defaults <tab> 0 0	
+3. mount -a
+
+
+
+
+
+
+bin/magento setup:install --base-url=http://localhost/magento2.com --db-host=localhost --db-name=magento --db-user=root --db-password=Root@123 --admin-firstname=admin --admin-lastname=admin --admin-email=admin@gmail.com --admin-user=admin --admin-password=admin@password123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1

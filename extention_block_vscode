@@ -1,0 +1,13 @@
+## IF you block vs code extentions and any outher extentions so
+
+## go to-
+```
+vi /etc/hosts
+```
+--and add this line in command-
+
+```
+localhost---     domain name--------
+127.0.0.1	  marketplace.visualstudio.com
+```
+

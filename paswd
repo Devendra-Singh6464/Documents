@@ -1,0 +1,32 @@
+passwd--- Root@123(mySql)
+uvdesk ----- uvdesk!@#
+erp password : devendra123
+
+opencart passwd and username----
+username : admin
+password : admin123
+email : admin@webkul.in
+database : opencart
+
+
+192.168.15.246
+
+
+mkcert localhost 127.0.0.1 ::1
+mkcert bhandari.demo "*.dev.bhandari.demo localhost 127.0.0.1 ::1
+mkcert bhandari.demo "*.bhandari.demo" bhandari.test localhost 127.0.0.1 ::1
+mkcert dtxt.com "*.dtxt.com" dtxt.test localhost 127.0.0.1 ::1
+
+
+mkcert -key-file deepaktxtkey.pem -cert-file deepaktxtcert.pem deepaktxt.com *.deepaktxt.com
+
+
+mv deepaktxtcert.pem /etc/ssl/certs/
+mv deepaktxtkey.pem /etc/ssl/private/
+
+/dev/sda1	/home/users/shubham.pal/hdd	ext4	defaults	0	0
+
+
+
+Charger: CH140-J23
+laptop: LP140-J23

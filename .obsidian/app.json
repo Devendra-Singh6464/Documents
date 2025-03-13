@@ -1,0 +1,18 @@
+{
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 89
+  },
+  "livePreview": false,
+  "promptDelete": false,
+  "defaultViewMode": "preview",
+  "tabSize": 8,
+  "focusNewTab": true,
+  "vimMode": false,
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "strictLineBreaks": true
+}

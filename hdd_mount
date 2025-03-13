@@ -1,0 +1,45 @@
+## HDD MOUNT----
+
+create a hdd folder in standrad user
+
+1. Mkdir Hdd
+2. vi /etc/fstab
+3. /dev/sda1	 /home/users/user-name/hdd 	ext4 	 defaults 	 0 0
+3. mount -a
+
+
+## Up swap memory---
+1. sudo fallocate -l 12G /swapfile
+2. ls -ll/swapfile
+enable swapfile-
+make the file only accessible to root-
+
+3. sudo chmod 600/swapfile
+4. ls -ll/swapfile 
+5. sudo mkswap /swapfile
+
+making swapfile permanent-
+6. mount -a 
+and swapon/swapfile
+7. echo '/swapfile none swap sw 0 0 '|sudo tee -a/etc/fstab   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bin/magento setup:install --base-url=http://localhost/magento2.com --db-host=localhost --db-name=magento --db-user=root --db-password=Root@123 --admin-firstname=admin --admin-lastname=admin --admin-email=admin@gmail.com --admin-user=admin --admin-password=admin@password123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1
